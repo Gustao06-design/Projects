@@ -1,0 +1,319 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.section{
+    display: flex;
+ background-image:linear-gradient(45deg, rgb(22, 21, 21), rgb(2, 155, 61));
+  height: 120vh;
+
+
+    
+}
+.section-container{
+   margin-top: 15%;
+   margin-left: 15%;
+    flex-direction: column;
+   text-align: center;
+   
+
+}
+
+.conteudo h1{
+font-size: 40px;
+margin-bottom: 10px;
+}
+.conteudo h4{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.conteudo ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25%;
+}
+.conteudo ul li{
+    list-style: none;
+    padding:15px;
+    
+}
+
+
+.logo{
+    display: flex;
+    position: relative;
+    bottom: 38%;
+    left: 130%;
+  
+    
+}
+
+.relative{
+    display: flex;
+    position: relative;
+    bottom: 50%;
+  
+}
+
+.absolute{
+    position: absolute;
+    bottom: 32%;
+    left: 25%;
+   
+}
+
+
+
+.section2{
+    display: flex;
+    background-image:linear-gradient(45deg, rgb(22, 21, 21), rgb(2, 155, 61));
+    height: 100vh;
+}
+
+
+
+.img{
+    display: flex;
+    position: relative;
+    top: 27%;
+    left: 20%;
+}
+.foto{
+    width: 50%;
+    border-radius: 10px;
+    
+
+    
+}
+.conteudo2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 90%;
+    bottom: 90px;
+    
+  
+    
+}
+
+.conteudo2 p{
+    margin: 5px 0;
+   
+  
+}
+
+.conteudo2 h1{
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+.botao{
+   font-size: 20px;
+    background-color: rgb(14, 206, 14);
+    color: white;
+    width: 15%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 15px;
+}
+
+.section3{
+    display: flex;
+    background-image:linear-gradient(45deg, rgb(22, 21, 21), rgb(2, 155, 61));
+    height: 100vh;
+}
+
+.conteudo3{
+display: flex;
+margin: 30px;
+font-size: 20px;
+justify-content: space-between;
+
+}
+
+.conteudo3 h1{
+    position: relative;
+    left: 5%;
+}
+.conteudo3 button{
+    position: relative;
+    right: 5%;
+    background-color: rgb(31, 26, 26);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.img2{
+    display: flex;
+    flex-direction: row;
+    margin: 80px;
+    position: relative;
+}
+
+.img2 img{
+    width: 100%;
+}
+
+
+.barbearia{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(65, 51, 51);
+    margin: 20px;
+    position: relative;
+   
+    
+}
+
+    
+.barbearia p{
+    display: flex;
+   justify-content: center;
+    margin: 10px;
+    padding: 10px;
+ }
+
+ .calculadora{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(65, 51, 51);
+    margin: 20px;
+    
+ }
+ .calculadora p{
+    display: flex;
+    justify-content: center;
+     margin: 10px;
+     margin-top: 20px;
+     padding: 10px;
+ }
+
+ .formulario{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(65, 51, 51);
+    margin: 20px;
+ }
+ .formulario p{
+    display: flex;
+    justify-content: center;
+     margin: 10px;
+     padding: 10px;
+ }
+
+ .spotify{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(65, 51, 51);
+    margin: 20px;
+ }
+ .spotify p{
+    display: flex;
+    justify-content: center;
+     margin: 10px;
+     padding: 10px;
+ }
+
+ .article{
+    display: flex;
+    background-image:linear-gradient(45deg, rgb(22, 21, 21), rgb(2, 155, 61));
+    height: 100vh;
+ }
+
+ .article-container{
+    margin-top: 10%;
+   margin-left: 15%;
+    flex-direction: column;
+   text-align: center;
+
+ }
+ .conteudo4 h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+  
+ }
+
+
+
+.logo2{
+    display: flex;
+    position: relative;
+    bottom: 80%;
+    left: 130%;
+  
+    
+}
+
+.relative2{
+    display: flex;
+    position: relative;
+    bottom: 50%;
+    
+   
+  
+}
+
+.absolute2{
+    position: absolute;
+    bottom: 32%;
+    left: 25%;
+ 
+}
+
+ .gmail{
+   display: flex;
+   flex-direction: row;
+   margin: 40px;
+   
+}
+
+.gmail p{
+    position: relative;
+    left: 15px;
+    top: 20px;
+    font-size: 20px;
+}
+ .whatz{
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+}
+
+.whatz p{
+    position: relative;
+    left: 15px;
+    top: 20px;
+    font-size: 20px;
+}
+ .instagram{
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+}
+
+.instagram p{
+    position: relative;
+    left: 15px;
+    top: 20px;
+    font-size: 20px;
+}
+

@@ -1,0 +1,273 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    display: flex;
+    background: url(img/florian-olivo-4hbJ-eymZ1o-unsplash.jpg) center center/cover;
+    background-color:rgba(0, 0, 0, 0.6);
+    background-blend-mode: color;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.header-container{
+    flex-direction: column;
+    margin-top: 6%;
+}
+
+.conteudo h1{
+    font-size: 38px;
+    
+}
+.conteudo p{
+    margin-top: 25px;
+    font-size: 19px;
+}
+.conteudo button{
+    font-size: 20px;
+    margin-top: 5%;
+    padding: 20px 37px;
+    background-color: rgb(29, 26, 26);
+    color: white;
+    border: solid 1px #666;
+}
+
+.conteudo button:hover{
+    background-color: rgb(255, 255, 255);
+    color:rgb(29, 26, 26) ;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.section{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   
+}
+.section-container{
+    flex-direction: column;
+    margin-top: 30px;
+
+}
+
+.conteudo2 h2{
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.p{
+    display: flex;
+    margin: 20px;
+    margin-bottom: 60px;
+    font-size: 19px;
+}
+p.fist{
+    margin-right: 20px;
+
+}
+p.second{
+    margin-left: 20px;
+}
+
+.section2{
+    display: flex;
+    flex-direction: row;
+    background-color:rgba(0, 0, 0, 0.767) ;
+    text-align: center;
+    justify-content: center;
+
+}
+.section-container2{
+    margin: 30px;
+    
+}
+
+.conteudo3{
+    display: flex;
+    flex-direction: row;
+}
+
+.img1{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  background-color: white;
+}
+
+.img1 p{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    margin-top: 30px;
+    padding: 5px;
+    padding-bottom: 30px;
+    font-size: 21px ;
+}
+
+.img1 h2{
+    margin-top: 40px;
+    padding: 10px 45px;
+}
+
+.img2{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    background-color: white;
+  }
+  
+  .img2 p{
+      display: flex;
+      justify-content: center;
+      margin: 20px;
+      margin-top: 30px;
+      padding: 5px;
+      padding-bottom: 30px;
+      font-size: 21px ;
+  }
+  
+  .img2 h2{
+      margin-top: 40px;
+      padding: 10px 45px;
+  }
+
+  .img3{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    background-color: white;
+  }
+  
+  .img3 p{
+      display: flex;
+      justify-content: center;
+      margin: 20px;
+      margin-top: 30px;
+      padding: 5px;
+      padding-bottom: 30px;
+      font-size: 21px ;
+  }
+  
+  .img3 h2{
+      margin-top: 40px;
+      padding: 10px 45px;
+  }
+img{
+    height: 180px;
+    width: 100%;
+}
+
+.article{
+    display: flex;
+   text-align: center;
+    justify-content: center;
+}
+
+.article-container{
+    flex-direction: column;
+    margin-top: 38px;
+}
+
+.conteudo4 h2{
+    margin-top: 30px;
+}
+.conteudo4 p{
+    margin-top: 50px;
+}
+
+.article2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.article-container2{
+    margin-top: 30px;
+}
+.conteudo5{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.blue{
+    background-color:rgb(40, 94, 241) ;
+    color: white;
+    padding: 40px;
+    padding-left: 135px;
+}
+.blue h2{
+    margin-top: 25px;
+    margin-bottom: 40px;
+    margin-right: 20%
+}
+.blue p{
+    padding: 20px;
+    margin-right: 20%;
+    font-size: 21px;
+}
+
+.grey{
+    background-color: rgba(0, 0, 0, 0.767) ;
+    color: white;
+    padding: 40px;
+    padding-right: 135px;
+}
+.grey h2{
+    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-left: 20%;
+}
+.grey p{
+    padding: 20px;
+    margin-left: 20%;
+    font-size: 21px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+.footer-container{
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.conteudo6 ul{
+    display: flex;
+    list-style: none;
+    
+}
+.conteudo6 ul li{
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 280px;
+    margin-right: 280px;
+}
+
+a.link{
+    color: #2690D4;
+}
+
+
+
+
+
+

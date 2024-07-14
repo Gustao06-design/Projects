@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="header">
+    <div class="header-container">
+        <h1>freeCodeCamp Survey Form</h1>
+        <h3>Thank you for taking time to help us improve the platform</h3>
+    </div>
+
+   </div>
+
+   <div class="section">
+    <div class="formulario">
+        <form action="index.html" method="get">
+            <div class="container">
+                <label for="fname">Name</label>
+                <input type="text" id="fname"placeholder="Enter your name" required>
+            </div>
+    
+            <div class="container">
+                <label class="email"for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+    
+            <div class="container">
+                <label class="age" for="age">Age (optional)</label>
+                <input type="number" id="age" placeholder="Age">
+            </div>
+    
+            <div class="container">
+                <label class="which" for="curriculo">Which option best describes your current role? 
+    
+                </label>
+               
+                
+                <select  id="container-opcao" >
+                    <option value="1">Student</option>
+                    <option value="2">Full time Job</option>
+                    <option value="3">Full time Leaner</option>
+                    <option value="4">Prefer not to say</option>
+                    <option value="5">Other</option>
+                </select>
+                
+            </div>
+    
+            <div class="container">
+                <label class="would"for="">Would you recommend freeCodeCamp to a friend?</label>
+                <div class="radio-opcao">
+                    
+                    <label class="radio">
+                        <input type="radio" name="frad" id="rad">
+                        Definitely
+                    </label>
+                  
+                    <label class="radio"">
+                        <input type="radio" name="frad" id="rad">
+                        Maybe
+                    </label>
+                   
+                    <label class="radio">
+                        <input type="radio" name="frad" id="rad">
+                        Not sure
+                        
+                    </label> 
+                   
+                </div>
+           
+                
+            </div>
+    
+            <div class="container">
+                <label class="what"for="">What is your favorite feature of freeCodeCamp?</label>
+                <select name="" id="container-opcao">
+                    <option value="Challengers">Challengers</option>
+                    <option value="Projects">Projects</option>
+                    <option value="Community">Community</option>
+                    <option value="Open Source">Open Source</option>
+                </select>
+             
+            </div>
+    
+            <div class="container">
+                <label class="whatlike" for="">What would you like to see improved? (Check all that apply)</label>
+                <div class="box-opcao">
+                    
+                    <label >
+                        <input type="checkbox" name="" id="box">
+                        Frot-end Projects
+                    </label>
+    
+                    <label >
+                        <input type="checkbox" name="" id="box">
+                        Back-end Projects
+                    </label>
+    
+                    <label for="">
+                        <input type="checkbox" name="" id="box">
+                        Data Visualization
+                    </label>
+    
+                    <label for="">
+                        <input type="checkbox" name="" id="box">
+                        Challenges
+                    </label>
+    
+                    <label for="">
+                        <input type="checkbox" name="" id="box">
+                        Open Source Community
+                    </label>
+                    
+                    <label for="">
+                        <input type="checkbox" name="" id="box">
+                        Vídeos
+                    </label>
+    
+                    <label for="">
+                        <input type="checkbox" name="" id="box">
+                        City Meetups
+                    </label>
+    
+                    <label for="">
+                        <input type="checkbox" name="" id="box">
+                        Wiki
+                    </label>
+    
+                    <label for="">
+                        <input type="checkbox" name="" id="box">
+                        Forum
+                    </label>
+    
+                    <label for="">
+                        <input type="checkbox" name="" id="box">
+                        Additional Courses
+                    </label>
+    
+                </div>
+               
+                
+            </div>
+    
+            <div class="container-comentario">
+                <label class="comments">Any comments or suggestions?</label>
+                
+            <textarea class="textarea"
+             placeholder="Enter your comment here..."></textarea>
+    
+            </div>
+            
+        <button class="botao"type="submit">Submit</button>
+        </form>
+        
+       
+
+
+
+        
+   </div>
+   </div>
+
+    
+</body>
+</html>

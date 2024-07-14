@@ -1,0 +1,196 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.header{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    
+    
+
+}
+.header-container{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+   
+
+
+}
+.header-container .logo{
+    height: 40px;
+    width: auto;
+}
+
+.header-container ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+.header-container ul li{
+    padding: 15px;
+}
+
+.header-container ul li:nth-child(3){
+    border-right: 1px solid white ;
+ 
+}
+
+.section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url(img/showcase.webp) center center/cover;
+    background-color:rgba(0, 0, 0, 0.6);
+    background-blend-mode: color;
+}
+
+.section-container{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+}
+
+.section-container h1{
+    font-size: 50px;
+    padding: 10px;
+}
+
+.section-container p{
+    padding: 15px;
+    
+}
+
+.botao{
+    color: white;
+    background-color: #1DB954;
+    text-transform: uppercase;
+    padding: 15px 60px;
+    border-radius: 30px;
+    border: none ;
+    font-weight: bold;
+   letter-spacing: 1px;
+
+
+}
+
+
+.footer{
+    background-color: black;
+    color: white;
+   
+    
+    
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: auto;
+    padding: 84px 0;
+  
+}
+
+.footer-container p{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #919496;
+    font-size: 0.8rem;
+    margin-left: 60px;
+   
+}
+
+.footer-items{
+   padding: 25px;
+}
+
+.footer-item{
+    list-style: none;
+    padding: 5px;
+    margin: 25px 10px;
+    margin-left: 60px;
+    
+}
+
+.footer-item:hover{
+    color:  #1DB954;
+}
+
+.footer-container .logo{
+    height: 40px;
+    width: auto;
+   
+}
+
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 80px;
+}
+
+.footer-info-items{
+    display: flex;
+    list-style: none;
+   font-weight: bold;
+   color: #919496;
+     
+}
+
+.footer-info-item{
+    padding: 10px;
+}
+
+.footer-info .rights p{
+    font-weight: bold;
+    color: #919496;
+    
+      
+}
+
+.footer-info .country{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+   color: #919496;
+   margin-bottom: 10px;
+   align-items: center;
+     
+}
+
+.footer-info .brasil-flag{
+    height: 20px;
+    width: auto;
+    margin-left: 10px;
+    
+}
+
+.socias{
+   display: flex;
+   background-color: #1DB954;
+   height: 5vh;
+   justify-content: flex-end;
+}
+
+.socias img{
+    padding: 8px;
+    
+}

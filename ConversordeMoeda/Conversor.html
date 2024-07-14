@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="Conversor.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+
+    <script src="Conversor.js"></script>
+</head>
+<body id="fundo">
+    <header>
+        <h1 id="convermod">Conversor de moedas</h1>
+    </header>
+
+    <section>
+        <div class="container clearfix">
+            <div class="left-column">
+                <p>
+                    Digite o valor em: 
+                <select name="Moeda" id="mod1">
+                    <option value="Real">Real</option>
+                    <option value="Dólar">Dólar</option>
+                    <option value="Euro">Euro</option>
+                    <option value="Libra">Libra</option>
+                </select>
+                <input type="text" name="Valor" id="val1">
+            </div>
+            
+            <div class="right-column">
+                <p>
+                    Esse é o valor em:
+                    <select name="Moeda2" id="mod2">
+                        <option value="Real">Real</option>
+                        <option value="Dólar">Dólar</option>
+                        <option value="Euro">Euro</option>
+                        <option value="Libra">Libra</option>
+                        </select>
+                        <input type="text" name="Valor2" id="val2">
+                        <input type="button" value="Converter" onclick="convert()">
+                       
+                </p>
+    
+           <div>
+
+         </div>
+        
+    </section>
+    <div id="result"></div>
+    
+</body>
+</html>

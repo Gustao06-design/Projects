@@ -1,0 +1,28 @@
+
+
+.left-column{
+    width: 30%;
+    float: left;
+    padding: 20px;
+}
+.right-column{
+    width: 30%;
+    float: left;
+    padding: 20px;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+#convermod{
+    margin: 15px;
+}
+#fundo{
+    background-color: rgb(157, 157, 228);
+}
+
