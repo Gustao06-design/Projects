@@ -1,0 +1,16 @@
+.footer-imagens{
+    position: relative;
+
+}
+
+
+.img1{
+    width: 30vh;
+    position: absolute;
+    left: 30px
+}
+.img2{
+    width: 30vh;
+    position: absolute;
+    left: 180px
+}
