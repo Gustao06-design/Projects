@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+   background: linear-gradient(98deg,#00dbdc 0%, #fc00ff 100%);
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.section{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden; /*Header não soprepõem o section*/
+    width: 25%;
+    
+}
+
+.header{
+   background-color: #eee;
+   padding: 20px;
+  
+}
+
+.form{
+    padding: 20px;
+}
+
+.container{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+
+}
+
+.container label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+
+
+.container input{
+   border: 2px solid black;
+    display: flex;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 100%;
+    padding: 10px;
+}
+
+.container i{
+    position: absolute;
+    top: 32px;
+    right: 10px;
+    visibility: hidden;
+    
+}
+
+.container small{
+    position: absolute;
+    position: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.botao{
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #fc00ff;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+/*Erro e Sucesso*/
+
+.container.sucesso input{
+    border-color: #2ecc71;
+}
+
+.container.erro input{
+    border-color: #e74c3c;
+}
+
+.container.sucesso i.check{
+    color: #2ecc71;
+    visibility: visible;
+}
+
+.container.erro i.error{
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.container.erro small{
+    visibility: visible;
+    color: #e74c3c;
+}
