@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(90deg,
+    rgba(65,184,131,1)0%,
+    rgba(0,212,255,1)100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    border-radius: 2%;
+    border: 2px solid rgb(241, 234, 234);
+    padding: 30px 40px;
+}
+
+.new-task-container{
+    border: 2px solid white;
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 2%;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.new-task-container input{
+    font-size: 15px;
+    padding: 10px;
+    border: 2px solid #d1d3d4;
+    border-radius: 2px;
+}
+
+.new-task-container input:focus{ /*Focus: faz que a borda só mude de cor após clicar nela*/
+    outline: none;
+    border-color: #41b883;
+
+}
+
+.new-task-button{
+    font-size: 15px;
+    padding: 12px;
+    border-radius: 3px;
+    border: none;
+    background-color: #41b883;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.tasks-container{
+    border: 2px solid white;
+    background-color: white;
+    padding: 30px 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgb(0, 0, 0,0.3);
+    
+}
+
+/*Utilities*/
+
+.task-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+
+.task-item i{
+    background-color: #41b883;
+    color: white;
+    padding: 12px;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+
+.error{
+    border: 2px solid red !important;
+}
+
+.error::placeholder{
+    color: red;
+}
+
+.completed{
+    text-decoration: line-through;
+}
+
