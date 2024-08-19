@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #f5f7fa;
+    height: 100vh;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+   display: flex;
+   width: 100%;
+   justify-content: space-around;
+   padding: 10px;
+   height: 44px;
+}
+.header i{
+    font-size: 30px;
+}
+
+
+.section{
+    height: calc(100vh - 44px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.photo{
+    width: 98vw ;
+    height: 85vh;
+    margin-top: 10px;
+    background: url(img/image.png) center center/cover;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    box-shadow: 0 2px 10px 0 rgba(136,136,136,0.77);
+}
+.photo-text{
+    padding: 15px;
+    background: rgba(2,0,36);
+    background: rgba(2,0,36);
+    background: linear-gradient(
+        180deg,
+        rgba(2,0,36,1) 0%,
+        rgba(35,34,65,0) 0%,
+        rgba(0,0,0,0.7) 52%
+    );
+    border-radius: 10px;
+}
+
+.name-age{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.name-age h2:nth-child(2){
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.bio{
+    line-height: 1.7rem;
+    font-weight: 500;
+}
+
+.botoes{
+    display: flex;
+    flex: auto ;
+    align-items: center;
+}
+
+.botao{
+    font-size: 33px;
+    background: white;
+    box-shadow: 0 2px 6px 0 rgba(112,125,134,0.14);
+    height: 20px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 500ms ease;
+}
+
+.botao:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.botoes .botao:nth-last-child(2){
+    margin: 20px;
+    font-size: 25px;
+    
+}
+
+/* Desktop View*/
+@media(min-width: 1025px){
+    .photo{
+        width: 367px;
+        height: 684px;
+    }
+
+    .header{
+        width: 400px;
+        margin: auto;
+    }
+}
+
+
+
+
+
+
+
+
