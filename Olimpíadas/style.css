@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   background-color: #DDDD;
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1{
+   font-size: 2.5rem; /*43 px*/
+   color: #222831;
+   letter-spacing: 0.5rem;
+   margin-bottom: 1rem;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+#campo-pesquisa{
+    width: 30rem;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+    margin-bottom: 1rem;
+    color: #45474b;
+}
+button{
+    font-size: 1.2rem;
+    padding: 15px 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: #30475E;
+    color: white;
+    width: 9rem;
+    cursor: pointer;
+}
+
+.resultados-pesquisa{
+    width: 60rem;
+    height: 46vh;
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário*/
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    /*
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 3rem;
+    margin-bottom: 8rem;
+    */
+}
+
+.item-resultado{
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 1.4rem;
+    
+}
+.item-resultado h2{
+    color: #222831;
+}
+.item-resultado p{
+    margin: 2rem;
+    
+}
+.item-resultado a{
+    text-decoration: none;
+    color: #30475E;
+}
+.item-resultado a:hover{
+    color: blue;
+    text-decoration: underline;
+    }
+
+
+.footer{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    bottom: 0;
+    position: fixed;
+    line-height: 2.2rem;
+}
+
